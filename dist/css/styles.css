@@ -730,6 +730,10 @@ input[type="range"]:active::-webkit-slider-thumb {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .left-0 {
   left: 0px;
 }
@@ -772,6 +776,16 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .m-0 {
   margin: 0px;
+}
+
+.my-1 {
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .-mt-2 {
@@ -864,6 +878,18 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-16 {
+  height: 4rem;
+}
+
+.h-14 {
+  height: 3.5rem;
 }
 
 .w-0 {
@@ -1000,8 +1026,16 @@ input[type="range"]:active::-webkit-slider-thumb {
   flex-wrap: wrap;
 }
 
+.place-items-center {
+  place-items: center;
+}
+
 .items-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .justify-between {
@@ -1158,6 +1192,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
+.bg-blue-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 64 175 / var(--tw-bg-opacity));
+}
+
 .bg-clip-padding {
   background-clip: padding-box;
 }
@@ -1260,6 +1299,10 @@ input[type="range"]:active::-webkit-slider-thumb {
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-black {
+  font-weight: 900;
 }
 
 .normal-case {
@@ -1501,6 +1544,11 @@ input[type="range"]:active::-webkit-slider-thumb {
   color: rgb(23 23 23 / var(--tw-text-opacity));
 }
 
+.hover\:text-blue-800:hover {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
+}
+
 .hover\:no-underline:hover {
   text-decoration-line: none;
 }
@@ -1519,6 +1567,11 @@ input[type="range"]:active::-webkit-slider-thumb {
 .focus\:text-neutral-900:focus {
   --tw-text-opacity: 1;
   color: rgb(23 23 23 / var(--tw-text-opacity));
+}
+
+.focus\:text-blue-800:focus {
+  --tw-text-opacity: 1;
+  color: rgb(30 64 175 / var(--tw-text-opacity));
 }
 
 .focus\:no-underline:focus {
@@ -1746,6 +1799,25 @@ input[type="range"]:active::-webkit-slider-thumb {
 .dark\:focus\:text-neutral-400:focus:is(.dark *) {
   --tw-text-opacity: 1;
   color: rgb(163 163 163 / var(--tw-text-opacity));
+}
+
+@media (min-width: 768px) {
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .md\:h-36 {
+    height: 9rem;
+  }
+
+  .md\:h-24 {
+    height: 6rem;
+  }
+
+  .md\:h-20 {
+    height: 5rem;
+  }
 }
 
 @media (min-width: 1024px) {
